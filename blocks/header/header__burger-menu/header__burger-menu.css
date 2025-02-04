@@ -1,0 +1,7 @@
+.header__burger-menu {
+  width: 41px;
+  height: 41px;
+  padding: 0;
+   border: none;
+  background-image: url(/images/material-symbols_menu.svg);
+}
