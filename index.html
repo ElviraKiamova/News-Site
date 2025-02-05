@@ -18,7 +18,7 @@
     <header class="header">
       <div class="header__container">
         <div class="logo"></div>
-        <nav class="header__nav">
+        <nav aria-label="navigation" class="header__nav">
           <ul class="header__nav-list">
             <li class="header__nav-item">
               <a class="header__nav-link" href="/index.html">Главное</a>
@@ -49,7 +49,50 @@
     <main class="content">
       <section class="news" id="news"></section>
     </main>
-    <footer class="footer" id="footer"></footer>
+    <footer class="footer" id="footer">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <div class="logo logo_footer"></div>
+          <div class="footer__box-site">
+            <h4 class="footer__title-site">Наименование сайта</h4>
+            <p class="footer__text">Очень очень очень очень очень длинный текст</p>
+            <nav aria-label="contentinfo"><a class="footer__link footer__link_site" href="#">Карта сайта</a></nav>
+            <a class="footer__link footer__link_gismeteo" href="https://www.gismeteo.ru"  target="_blank">
+              <img src="/images/gis.svg" alt="Gis">
+              <img src="/images/meteo.svg" alt="метио">
+            </a>
+          </div>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="http://www.kremlin.ru/" target="_blank">Президент России</a>
+          <a class="footer__link" href="http://government.ru/" target="_blank">Правительство России</a>
+          <p class="footer__text">Очень очень очень очень очень длинный текст</p>
+          <p class="footer__text">Очень очень очень очень очень длинный текст</p>
+        </li>
+        <li class="footer__item">
+          <p class="footer__text">Очень очень очень очень очень длинный текст</p>
+          <p class="footer__text">Очень очень очень очень очень длинный текст</p>
+          <a class="footer__link" href="https://www.gosuslugi.ru/" target="_blank">Единый портал государственных услуг</a>
+        </li>
+      </ul>
+      <div class="footer__container">
+        <div class="footer__container-icon">
+          <div class="footer__box-icon">
+            <a class="footer__link footer__link_icon" href="https://vk.com/" target="_blank">
+              <img class="footer__img-icon" src="/images/vk-icon.svg" alt="Вконтакте">
+            </a>
+            <a class="footer__link footer__link_icon" href="https://telegram.org/"  target="_blank">
+              <img class="footer__img-icon" src="/images/telegram-icon.svg" alt="Телеграм">
+            </a>
+          </div>
+          <a class="footer__link footer__link_visually-impaired" href="#" target="_blank">Версия для слабовидящих</a>
+        </div>
+        <div class="footer__box-policy">
+          <a class="footer__link" href="https://46.rkn.gov.ru/directions/p24906/p24914/p36320/" target="_blank">Политика обработки персональных данных</a>
+          <p class="footer__text">© Все права защищены</p>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 </html>

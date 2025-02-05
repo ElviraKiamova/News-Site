@@ -1,0 +1,6 @@
+.footer__container-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 32px;
+}

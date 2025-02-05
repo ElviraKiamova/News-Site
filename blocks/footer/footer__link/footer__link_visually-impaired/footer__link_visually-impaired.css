@@ -1,0 +1,17 @@
+.footer__link_visually-impaired {
+  position: relative;
+  margin: 10px 0 0 98px;
+}
+
+.footer__link_visually-impaired::before {
+  content: "";
+  position: absolute;
+  left: -45px;
+  top: 70%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-image: url('/images/eye.svg');
+  background-repeat: no-repeat;
+}
+

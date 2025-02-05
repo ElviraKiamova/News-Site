@@ -1,0 +1,13 @@
+.footer__link_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: #000;
+  border-radius: 8px;
+}
+
+.footer__link_icon:first-child {
+  margin-right: 10px;
+}

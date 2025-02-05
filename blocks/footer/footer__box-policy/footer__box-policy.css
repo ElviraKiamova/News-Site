@@ -1,0 +1,12 @@
+.footer__box-policy {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: auto;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: end;
+  right: -20px;
+  top: 5px;
+}

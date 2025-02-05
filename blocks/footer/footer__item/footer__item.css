@@ -1,0 +1,20 @@
+.footer__item {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 34px;
+}
+
+.footer__item:first-child {
+  flex-direction: row;
+  gap: 20px;
+  max-width: 603px;
+  padding: 0;
+}
+
+
+.footer__item:last-child {
+  max-width: 350px;
+  margin-left: 25px;
+}
+
