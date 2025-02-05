@@ -4,3 +4,16 @@
   align-items: center;
   margin-left: 32px;
 }
+
+@media (max-width: 1400px) {
+  .footer__container-icon {
+    flex-direction: row-reverse;
+    margin: 25px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__container-icon {
+    margin: 21px 0;
+  }
+}

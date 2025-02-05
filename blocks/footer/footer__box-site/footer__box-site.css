@@ -1,0 +1,15 @@
+
+@media (max-width: 1400px) {
+  .footer__box-site {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__box-site {
+    flex-direction: column; 
+    gap: 30px;
+  }
+}

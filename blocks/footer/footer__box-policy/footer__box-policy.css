@@ -10,3 +10,30 @@
   right: -20px;
   top: 5px;
 }
+
+@media (max-width: 1400px) {
+  .footer__box-policy {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    right: 0;
+    top: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer__box-policy {
+  font-size: 14px;
+  line-height: 14px;
+  left: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__box-policy {
+    flex-direction: column;
+    justify-content: flex-start;
+    left: 0;
+    text-align: start;
+  }
+}

@@ -15,3 +15,22 @@
   background-repeat: no-repeat;
 }
 
+@media (max-width: 1400px) {
+  .footer__link_visually-impaired {
+    margin: 0 0 0 45px;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer__link_visually-impaired {
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 62px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__link_visually-impaired {
+    margin-left: 45px;
+  }
+}

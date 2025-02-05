@@ -1,0 +1,6 @@
+
+@media (max-width: 1400px) {
+  .footer__link_gismeteo {
+    display: none;
+  }
+}

@@ -2,3 +2,12 @@
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 600px) {
+  .footer__box-icon {
+    position: relative;
+    right: -15px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+}

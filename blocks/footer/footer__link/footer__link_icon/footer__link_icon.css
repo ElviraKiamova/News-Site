@@ -11,3 +11,10 @@
 .footer__link_icon:first-child {
   margin-right: 10px;
 }
+
+@media (max-width: 600px) {
+  .footer__link_icon {
+    width: 40px;
+    height: 40px;
+  }
+}

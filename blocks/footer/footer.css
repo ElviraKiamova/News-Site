@@ -7,3 +7,8 @@
   background-color: #FDC70D;
 }
 
+@media (max-width: 1400px) {
+  .footer {
+    padding-bottom: 37px;
+  }
+}
