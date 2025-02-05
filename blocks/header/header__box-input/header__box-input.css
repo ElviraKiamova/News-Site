@@ -1,0 +1,28 @@
+.header__box-input {
+  position: relative;
+  display: none;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: #FFF;
+  box-sizing: border-box;
+}
+
+.header__box-input::before {
+  content: "";
+  position: absolute;
+  left: 23px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  background-image: url('/images/search.svg');
+  background-size: cover;
+}
+
+@media (max-width: 700px) {
+  .header__box-input {
+    display: block;
+  }
+}

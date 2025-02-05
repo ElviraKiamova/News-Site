@@ -5,7 +5,11 @@
 @import url("../blocks/logo/logo.css");
 
 @import url("../blocks/header/header.css");
+@import url("../blocks/header/header__container/header__container.css");
 @import url("../blocks/header/header__nav/header__nav.css");
 @import url("../blocks/header/header__nav-list/header__nav-list.css");
 @import url("../blocks/header/header__nav-link/header__nav-link.css");
+@import url("../blocks/header/header__search/header__search.css");
+@import url("../blocks/header/header__box-input/header__box-input.css");
+@import url("../blocks/header/header__input/header__input.css");
 @import url("../blocks/header/header__burger-menu/header__burger-menu.css");

@@ -1,10 +1,22 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1520px;
+  max-width: 1510px;
   width: 80%;
   padding: 5px;
   border-radius: 100px;
   background-color: #FFC600;
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .header {
+    width: 84.5%;
+    border-radius: 20px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    width: 90%;
+  }
 }
