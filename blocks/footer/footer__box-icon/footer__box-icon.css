@@ -6,8 +6,13 @@
 @media (max-width: 600px) {
   .footer__box-icon {
     position: relative;
-    right: -15px;
     font-size: 18px;
     line-height: 18px;
+  }
+}
+
+@media (max-width: 380px) {
+  .footer__box-icon {
+    right: 0;
   }
 }

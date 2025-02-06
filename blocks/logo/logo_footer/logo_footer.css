@@ -10,6 +10,7 @@
     min-width: 73px;
     width: 73px;
     height: 73px;
+    max-height: 73px;
   }
 }
 
@@ -18,5 +19,6 @@
     min-width: 87px;
     width: 87px;
     height: 87px;
+    min-height: 87px;
   }
 }

@@ -1,3 +1,5 @@
-.footer__site {
-  max-width: 214px;
+@media (max-width: 700px) {
+  .footer__site {
+    max-width: 214px;
+  }
 }

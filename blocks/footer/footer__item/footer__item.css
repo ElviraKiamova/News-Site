@@ -8,7 +8,7 @@
 .footer__item:first-child {
   flex-direction: row;
   gap: 20px;
-  max-width: 603px;
+  max-width: 607px;
   padding: 0;
 }
 

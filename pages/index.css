@@ -6,6 +6,7 @@
 @import url("../blocks/logo/logo_footer/logo_footer.css");
 
 @import url("../blocks/header/header.css");
+@import url("../blocks/header/header_indent/header_indent.css");
 @import url("../blocks/header/header__container/header__container.css");
 @import url("../blocks/header/header__nav/header__nav.css");
 @import url("../blocks/header/header__nav-list/header__nav-list.css");
