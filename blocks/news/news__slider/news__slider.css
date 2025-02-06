@@ -1,0 +1,5 @@
+.news__slider { 
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}

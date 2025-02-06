@@ -1,0 +1,8 @@
+.content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: #E7E7E6;
+}

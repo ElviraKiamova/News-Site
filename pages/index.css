@@ -16,6 +16,34 @@
 @import url("../blocks/header/header__input/header__input.css");
 @import url("../blocks/header/header__burger-menu/header__burger-menu.css");
 
+@import url("../blocks/content/content.css");
+
+@import url("../blocks/title/title.css");
+
+@import url("../blocks/subtitle/subtitle.css");
+@import url("../blocks/subtitle/subtitle_news/subtitle_news.css");
+
+@import url("../blocks/news/news.css");
+@import url("../blocks/news/news_indent/news_indent.css");
+@import url("../blocks/news/news__content/news__content.css");
+@import url("../blocks/news/news__box-button/news__box-button.css");
+@import url("../blocks/news/news__buttons/news__buttons.css");
+@import url("../blocks/news/news__button/news__button.css");
+@import url("../blocks/news/news__button/news__button_year/news__button_year.css");
+@import url("../blocks/news/news__button/news__button_active/news__button_active.css");
+@import url("../blocks/news/news__button/news__button_slider/news__button_slider.css");
+@import url("../blocks/news/news__button/news__button_back/news__button_back.css");
+@import url("../blocks/news/news__button/news__button_forward/news__button_forward.css");
+@import url("../blocks/news/news__archive/news__archive.css");
+@import url("../blocks/news/news__cards/news__cards.css");
+@import url("../blocks/news/news__card/news__card.css");
+@import url("../blocks/news/news__card-title/news__card-title.css");
+@import url("../blocks/news/news__card-date/news__card-date.css");
+@import url("../blocks/news/news__card-text/news__card-text.css");
+@import url("../blocks/news/news__card-read/news__card-read.css");
+@import url("../blocks/news/news__card-img/news__card-img.css");
+@import url("../blocks/news/news__slider/news__slider.css");
+
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/footer__list/footer__list.css");
 @import url("../blocks/footer/footer__item/footer__item.css");

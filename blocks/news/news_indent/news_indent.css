@@ -1,0 +1,15 @@
+.news_indent {
+  margin: 80px 0 150px;
+}
+
+@media (max-width: 700px) {
+  .news_indent {
+    margin: 50px 0 80px;
+  }
+}
+
+@media (max-width: 400px) {
+  .news_indent {
+    margin-top: 20px;
+  }
+}
