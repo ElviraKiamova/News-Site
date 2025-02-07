@@ -15,3 +15,25 @@
   background-image: url('/images/sign.svg');
   background-repeat: no-repeat;
 }
+
+@media (max-width: 700px) {
+  .subtitle_news {
+    margin-left: 32px;
+  }
+  .subtitle_news::before {
+    left: -25px;
+    top: 25px;
+    background-size: 13px 13px;
+  }
+}
+
+@media (max-width: 500px) {
+  .subtitle_news {
+    margin-left: 30px;
+  }
+  .subtitle_news::before {
+    left: -20px;
+    top: 15px;
+    background-size: 10px 18px;
+  }
+}

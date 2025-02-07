@@ -4,3 +4,18 @@
   line-height: 32px;
   letter-spacing: 0;
 }
+  
+@media (max-width: 700px) {
+  .subtitle {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .subtitle {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0;
+  }
+}

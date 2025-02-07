@@ -6,3 +6,10 @@
   border-top-right-radius: 50px;
   background-color: #E7E7E6;
 }
+
+@media (max-width: 500px) {
+  .content {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+}

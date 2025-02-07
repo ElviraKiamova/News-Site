@@ -4,5 +4,26 @@
 }
 
 .news__buttons:nth-child(2) {
-  margin: 0 20px 0 auto;
+  margin: 0 0 0 auto;
+}
+
+@media (max-width: 850px) {
+  .news__buttons:nth-child(2) {
+    margin: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .news__buttons:first-child {
+    gap: 15px;
+  }
+  .news__buttons:nth-child(2) {
+    gap: 22px;
+  }
+}
+
+@media (max-width: 385px) {
+  .news__buttons {
+    flex-wrap: wrap;
+  }
 }
