@@ -1,0 +1,9 @@
+.form__label-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 4px;
+  font-size: 13px;
+  line-height: 15.6px;
+  letter-spacing: 0.2px;
+}

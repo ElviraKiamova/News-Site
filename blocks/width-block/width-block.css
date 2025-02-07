@@ -1,0 +1,16 @@
+.width-block {
+  max-width: 1520px;
+  width: 80%;
+}
+
+@media (max-width: 700px) {
+  .width-block {
+    width: 84.5%;
+  }
+}
+
+@media (max-width: 400px) {
+  .width-block {
+    width: 90%;
+  }
+}

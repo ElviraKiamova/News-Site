@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="новостной сайт">
+  <meta name="keywords" content="новости">
+  <meta name="author" content="Эльвира Киямова">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="pages/index.css">
+  <link rel="shortcut icon" href="images/news_icon.svg" type="image/x-icon">
+  <title>Новости</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header header_indent width-block">
+      <div class="header__container">
+        <div class="logo"></div>
+        <nav aria-label="navigation" class="header__nav header__nav_form">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="/index.html">Главное</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">Направления деятельности</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="/index.html">Новости</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#footer">Контакты</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="/index-form.html">Оставить обращение</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="logo">
+          <button class="header__burger-menu"></button>
+        </div>
+      </div>
+      <div class="header__box-input">
+        <input class="header__input" type="text" placeholder="Поиск по сайту">
+      </div>
+    </header>
+    <main class="content content_indent">
+      <section class="appeals width-block">
+        <div class="appeals__content">
+          <h2 class="subtitle">Главная</h2>
+          <h2 class="subtitle subtitle_news">Обращения граждан</h2>
+        </div>
+        <form class="form" action="#" method="post" aria-label="Форма обращения" enctype="multipart/form-data">
+          <input class="form__input" name="user-name" type="text" placeholder="ФИО" required>
+          <input class="form__input" name="email" type="email" placeholder="E-mail" required>
+          <input class="form__input" name="telephone" type="tel" placeholder="+7 (952)-664-77-23" required>
+          <textarea class="form__input form__input-textarea" name="message" id="appeals-form" placeholder="Введите текст вашего обращения" required></textarea>
+          <label class="form__files-label">
+            <input class="form__files" name="files" type="file" multiple>
+            Прикрепить файлы
+          </label>
+          <label class="form__label-checkbox">
+            <input class="form__checkbox" name="checkbox" type="checkbox" checked>
+            <span class="form__checkmark"></span>
+            Оставляя заявку, вы соглашаетесь с условиями <span class="form__label-underline">политики</span> <span class="form__label-underline">конфиденциальности</span>
+          </label>
+          <button class="form__submit" type="submit">Отправить</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <ul class="footer__list width-block">
+        <li class="footer__item">
+          <div class="logo logo_footer"></div>
+          <div class="footer__box-site">
+            <div class="footer__site">
+              <h4 class="footer__title-site">Наименование сайта</h4>
+              <p class="footer__text">Очень очень очень очень очень длинный текст</p>
+            </div>
+            <nav aria-label="contentinfo"><a class="footer__link footer__link_site" href="#">Карта сайта</a></nav>
+            <a class="footer__link footer__link_gismeteo" href="https://www.gismeteo.ru"  target="_blank">
+              <img src="/images/gis.svg" alt="Gis">
+              <img src="/images/meteo.svg" alt="метио">
+            </a>
+          </div>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="http://www.kremlin.ru/" target="_blank">Президент России</a>
+          <a class="footer__link" href="http://government.ru/" target="_blank">Правительство России</a>
+          <p class="footer__text">Очень очень очень очень очень длинный текст</p>
+          <p class="footer__text">Очень очень очень очень очень длинный текст</p>
+        </li>
+        <li class="footer__item">
+          <p class="footer__text">Очень очень очень очень очень длинный текст</p>
+          <p class="footer__text">Очень очень очень очень очень длинный текст</p>
+          <a class="footer__link" href="https://www.gosuslugi.ru/" target="_blank">Единый портал государственных услуг</a>
+        </li>
+      </ul>
+      <div class="footer__container width-block">
+        <div class="footer__container-icon">
+          <div class="footer__box-icon">
+            <a class="footer__link footer__link_icon" href="https://vk.com/" target="_blank">
+              <img class="footer__img-icon" src="/images/vk-icon.svg" alt="Вконтакте">
+            </a>
+            <a class="footer__link footer__link_icon" href="https://telegram.org/"  target="_blank">
+              <img class="footer__img-icon" src="/images/telegram-icon.svg" alt="Телеграм">
+            </a>
+          </div>
+          <a class="footer__link footer__link_visually-impaired" href="#" target="_blank">Версия для слабовидящих</a>
+        </div>
+        <div class="footer__box-policy">
+          <a class="footer__link" href="https://46.rkn.gov.ru/directions/p24906/p24914/p36320/" target="_blank">Политика обработки персональных данных</a>
+          <p class="footer__text">© Все права защищены</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

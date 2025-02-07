@@ -1,0 +1,13 @@
+.form__input {
+  height: 82px;
+  border: none;
+  border-radius: 15px;
+  background-color: #E7E7E6;
+  padding: 0 30px;
+}
+
+.form__input::placeholder {
+  font-size: 18px;
+  line-height: 21.6px;
+  letter-spacing: 0;
+}
