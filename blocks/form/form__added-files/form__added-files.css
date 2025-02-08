@@ -1,0 +1,10 @@
+.form__added-files {
+  display: none;
+}
+
+
+@media (max-width: 400px) {
+  .form__added-files {
+    display: block;
+  }
+}

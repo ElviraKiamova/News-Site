@@ -61,6 +61,10 @@
 @import url("../blocks/form/form__checkbox/form__checkbox.css");
 @import url("../blocks/form/form__checkmark/form__checkmark.css");
 @import url("../blocks/form/form__label-underline/form__label-underline.css");
+@import url("../blocks/form/form__box-files/form__box-files.css");
+@import url("../blocks/form/form__added-files/form__added-files.css");
+@import url("../blocks/form/form__attach-file/form__attach-file.css");
+@import url("../blocks/form/form__attach-more/form__attach-more.css");
 
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/footer__list/footer__list.css");

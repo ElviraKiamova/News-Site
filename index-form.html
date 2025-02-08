@@ -56,14 +56,22 @@
           <input class="form__input" name="email" type="email" placeholder="E-mail" required>
           <input class="form__input" name="telephone" type="tel" placeholder="+7 (952)-664-77-23" required>
           <textarea class="form__input form__input-textarea" name="message" id="appeals-form" placeholder="Введите текст вашего обращения" required></textarea>
-          <label class="form__files-label">
-            <input class="form__files" name="files" type="file" multiple>
-            Прикрепить файлы
-          </label>
+          <div class="form__box-files">
+            <div class="form__file-field">
+              <span class="form__added-files">namedoc.txt</span>
+            </div>
+            <label class="form__files-label">
+              <input class="form__files" name="files" type="file" multiple>
+              <span class="form__attach-file">Прикрепить файлы</span>
+              <span class="form__attach-more">Прикрепить ещё</span>
+            </label>
+          </div>
           <label class="form__label-checkbox">
             <input class="form__checkbox" name="checkbox" type="checkbox" checked>
             <span class="form__checkmark"></span>
-            Оставляя заявку, вы соглашаетесь с условиями <span class="form__label-underline">политики</span> <span class="form__label-underline">конфиденциальности</span>
+            <span>
+              Оставляя заявку, вы соглашаетесь с условиями<span class="form__label-underline"> политики</span><span class="form__label-underline"> конфиденциальности</span>
+            </span>
           </label>
           <button class="form__submit" type="submit">Отправить</button>
         </form>
@@ -92,7 +100,6 @@
           <p class="footer__text">Очень очень очень очень очень длинный текст</p>
         </li>
         <li class="footer__item">
-          <p class="footer__text">Очень очень очень очень очень длинный текст</p>
           <p class="footer__text">Очень очень очень очень очень длинный текст</p>
           <a class="footer__link" href="https://www.gosuslugi.ru/" target="_blank">Единый портал государственных услуг</a>
         </li>

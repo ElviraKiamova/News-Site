@@ -1,9 +1,24 @@
 .form__label-checkbox {
   display: flex;
   align-items: center;
-  gap: 9px;
   padding: 4px;
   font-size: 13px;
   line-height: 15.6px;
   letter-spacing: 0.2px;
+}
+
+@media (max-width: 700px) {
+  .form__label-checkbox {
+   position: relative;
+   top: -5px;
+   max-width: 380px;
+  }
+}
+
+@media (max-width: 700px) {
+  .form__label-checkbox {
+   position: relative;
+   top: -5px;
+   max-width: 380px;
+  }
 }

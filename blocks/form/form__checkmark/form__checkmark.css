@@ -1,8 +1,10 @@
 .form__checkmark {
-  display: inline-block;
+  display: block;
   width: 24px;
   height: 24px;
-  /* border: 3px solid #FDC70D; */
+  margin-right: 10px;
   border-radius: 5px;
   background-image: url(/images/check-mark.svg);
+  background-size: cover; 
+  flex-shrink: 0;
 }

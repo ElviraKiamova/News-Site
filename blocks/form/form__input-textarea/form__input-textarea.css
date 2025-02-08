@@ -3,3 +3,10 @@
   padding: 30px;
   box-sizing: border-box;
 }
+
+@media (max-width: 400px) {
+  .form__input-textarea {
+    height: 236px;
+    padding: 15px;
+  }
+}

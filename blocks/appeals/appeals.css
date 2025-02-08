@@ -4,3 +4,15 @@
   justify-content: flex-start;
   gap: 100px;
 }
+
+@media (max-width: 700px) {
+  .appeals {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .appeals {
+    gap: 30px;
+  }
+}

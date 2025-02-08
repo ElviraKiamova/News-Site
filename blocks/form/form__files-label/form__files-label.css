@@ -1,5 +1,4 @@
 .form__files-label {
-  position: relative;
   display: flex;
   align-items: center;
   width: 249px;
@@ -10,15 +9,8 @@
   box-sizing: border-box;
 }
 
-.form__files-label::after {
-  content: "";
-  position: absolute;
-  right: 15px;
-  top: 22px;
-  transform: translateY(-50%);
-  width: 20px;
-  height: 23px;
-  background-image: url('/images/clip.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
+@media (max-width: 400px) {
+  .form__files-label {
+    width: 155px;
+  }
 }
