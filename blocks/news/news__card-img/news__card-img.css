@@ -3,14 +3,14 @@
   width: 200px;
   height: 200px;
   border-radius: 25px;
-  background-image: url(/images/road.png);
+  background-image: url(../../../images/road.png);
   background-size: cover;
 }
 
 @media (max-width: 500px) {
   .news__card-img {
     width: 320px;
-    background-image: url(/images/road-390.png);
+    background-image: url(../../../images/road-390.png);
   }
 }
 

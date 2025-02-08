@@ -12,8 +12,10 @@
 @import url("../blocks/header/header__container/header__container.css");
 @import url("../blocks/header/header__nav/header__nav.css");
 @import url("../blocks/header/header__nav/header__nav_form/header__nav_form.css");
+@import url("../blocks/header/header__nav/header__nav_opened/header__nav_opened.css");
 @import url("../blocks/header/header__nav-list/header__nav-list.css");
 @import url("../blocks/header/header__nav-link/header__nav-link.css");
+@import url("../blocks/header/header__close-burger/header__close-burger.css");
 @import url("../blocks/header/header__search/header__search.css");
 @import url("../blocks/header/header__box-input/header__box-input.css");
 @import url("../blocks/header/header__input/header__input.css");

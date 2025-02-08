@@ -5,6 +5,12 @@
   padding: 15px;
   border-radius: 25px;
   background-color: #FFF;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.news__card:hover {
+  background-color: rgba(173, 173, 173, 0.5);
 }
 
 @media (max-width: 500px) {

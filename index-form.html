@@ -19,21 +19,22 @@
       <div class="header__container">
         <div class="logo"></div>
         <nav aria-label="navigation" class="header__nav header__nav_form">
+          <button class="header__close-burger"></button>
           <ul class="header__nav-list">
             <li class="header__nav-item">
-              <a class="header__nav-link" href="/index.html">Главное</a>
+              <a class="header__nav-link" href="index.html">Главное</a>
             </li>
             <li class="header__nav-item">
               <a class="header__nav-link" href="#">Направления деятельности</a>
             </li>
             <li class="header__nav-item">
-              <a class="header__nav-link" href="/index.html">Новости</a>
+              <a class="header__nav-link" href="index.html">Новости</a>
             </li>
             <li class="header__nav-item">
               <a class="header__nav-link" href="#footer">Контакты</a>
             </li>
             <li class="header__nav-item">
-              <a class="header__nav-link" href="/index-form.html">Оставить обращение</a>
+              <a class="header__nav-link" href="index-form.html">Оставить обращение</a>
             </li>
           </ul>
         </nav>
@@ -52,7 +53,7 @@
           <h2 class="subtitle subtitle_news">Обращения граждан</h2>
         </div>
         <form class="form" action="#" method="post" aria-label="Форма обращения" enctype="multipart/form-data">
-          <input class="form__input" name="user-name" type="text" placeholder="ФИО" required>
+          <input class="form__input" name="user-name" type="text" minlength="2" placeholder="ФИО" required>
           <input class="form__input" name="email" type="email" placeholder="E-mail" required>
           <input class="form__input" name="telephone" type="tel" placeholder="+7 (952)-664-77-23" required>
           <textarea class="form__input form__input-textarea" name="message" id="appeals-form" placeholder="Введите текст вашего обращения" required></textarea>
@@ -123,5 +124,6 @@
       </div>
     </footer>
   </div>
+  <script src="/script.js"></script>
 </body>
 </html>

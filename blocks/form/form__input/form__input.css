@@ -12,9 +12,32 @@
   letter-spacing: 0;
 }
 
+.form__input:hover {
+  border: 2px solid #ADADAD;
+  outline: none;
+}
+
+.form__input:valid {
+  border: 2px solid green;
+  outline: none;
+}
+
+.form__input:invalid {
+  border: 2px solid transparent;
+}
+
+.form__input:invalid:focus-visible {
+  border: 2px solid red;
+  outline: none;
+}
+
+.form__input:invalid:focus {
+  border: 2px solid red;
+}
+
 @media (max-width: 400px) {
   .form__input {
-    height: 52px;
+    height: 49px;
     padding: 0 15px;
   }
 }

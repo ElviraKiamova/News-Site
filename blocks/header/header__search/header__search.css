@@ -1,12 +1,18 @@
 .header__search {
-  width: 40px;
-  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
   margin-right: 20px;
   margin-left: auto;
   border: none;
   background-image: url(/images/search.svg);
   background-color: transparent;
   cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .header__search {
+    margin: 0 70px 0 0;
+  }
 }
 
 @media (max-width: 700px) {

@@ -1,7 +1,20 @@
 .form__added-files {
+  position: relative;
   display: none;
 }
 
+.form__added-files::after {
+  content: "";
+  position: absolute;
+  right: -27px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url('/images/added-files.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 @media (max-width: 400px) {
   .form__added-files {
