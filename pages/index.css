@@ -5,7 +5,6 @@
 @import url("../blocks/width-block/width-block.css");
 
 @import url("../blocks/logo/logo.css");
-@import url("../blocks/logo/logo_footer/logo_footer.css");
 
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/header_indent/header_indent.css");
@@ -66,11 +65,17 @@
 @import url("../blocks/form/form__checkmark/form__checkmark.css");
 @import url("../blocks/form/form__label-underline/form__label-underline.css");
 @import url("../blocks/form/form__box-files/form__box-files.css");
+@import url("../blocks/form/form__file-list/form__file-list.css");
+@import url("../blocks/form/form__file-item/form__file-item.css");
 @import url("../blocks/form/form__added-files/form__added-files.css");
+@import url("../blocks/form/form__remove-files/form__remove-files.css");
 @import url("../blocks/form/form__attach-file/form__attach-file.css");
 @import url("../blocks/form/form__attach-more/form__attach-more.css");
+@import url("../blocks/form/form__modal/form__modal.css");
+@import url("../blocks/form/form__close-modal/form__close-modal.css");
 
 @import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/footer__logo/footer__logo.css");
 @import url("../blocks/footer/footer__list/footer__list.css");
 @import url("../blocks/footer/footer__item/footer__item.css");
 @import url("../blocks/footer/footer__container/footer__container.css");

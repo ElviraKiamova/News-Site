@@ -1,0 +1,12 @@
+.form__close-modal {
+  position: absolute;
+  top: -20px;
+  right: -30px;
+  width: 30px;
+  height: 30px;
+  background-image: url(/images/added-files.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  background-color: transparent
+}

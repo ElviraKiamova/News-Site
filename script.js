@@ -5,8 +5,70 @@ const dropDownElement = document.querySelector('.header__drop-down');
 const selectNewsElement = document.querySelector('.news-select');
 const newsListElements = document.querySelectorAll('[data-category]');
 const imageNewsElements = document.querySelectorAll('.news__card-img');
+const formElement = document.querySelector('.form');
+
+// работа с формой
+document.addEventListener('DOMContentLoaded', () => {
+  const formElement = document.querySelector('.form');
+  if (formElement) {
+    const fileInputElement = formElement.querySelector('.form__files');
+    const fileListElement = formElement.querySelector('.form__file-list');
+    const modalElement = formElement.querySelector('.form__modal');
+    const closeModalElement = formElement.querySelector('.form__close-modal');
+
+    fileListElement.style.display = 'none';
+
+    fileInputElement.addEventListener('change', () => {
+      const filesElement = Array.from(fileInputElement.files);
+      
+      if (filesElement.length > 0) {
+        fileListElement.style.display = 'block';
+        filesElement.forEach(file => {
+          const checkDuplicateFiles = [...fileListElement.children].some(item => item.textContent.includes(file.name));
+          if (!checkDuplicateFiles) {
+            const itemElement = document.createElement('li');
+            itemElement.className = 'form__file-item';
+
+            const spanElement = document.createElement('span');
+            spanElement.className = 'form__added-files';
+            spanElement.textContent = file.name;
+
+            const removeButtonElement = document.createElement('button');
+            removeButtonElement.className = 'form__remove-files';
+
+            removeButtonElement.addEventListener('click', () => {
+              itemElement.remove();
+              if (fileListElement.children.length === 0) {
+                fileListElement.style.display = 'none';
+              }
+            });
+
+            itemElement.appendChild(spanElement);
+            itemElement.appendChild(removeButtonElement);
+            fileListElement.appendChild(itemElement);
+          }
+        });
+      }
+    });
+
+    formElement.addEventListener('submit', (event) => {
+      event.preventDefault();
+      if (formElement.checkValidity()) {
+        formElement.reset();
+        fileListElement.innerHTML = '';
+        fileListElement.style.display = 'none';
+        modalElement.style.display = 'block';
+      }
+    });
+
+    closeModalElement.addEventListener('click', () => {
+      modalElement.style.display = 'none';
+    });
+  } 
+});
 
 
+// медлення загрузка изображений
 const uploadImages = (image) => {
     const srcImage = image.getAttribute('data-src');
     if (srcImage) {
@@ -45,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
+// выпадающий список
 const onOpenNewsList = () => {
   dropDownElement.classList.add('header__drop-down_opened');
 }
@@ -71,7 +133,7 @@ document.addEventListener("click", function(event) {
 });
 
 
-
+// бургер меню
 const onOpenBurgerMenu = (event) => {
   event.stopPropagation();
   navigationMenuElement.classList.add('header__nav_opened');

@@ -1,0 +1,13 @@
+.form__file-list {
+  display: flex;
+  margin-right: 45px;
+  padding: 0;
+  align-items: center;
+  list-style-type: none;
+}
+
+@media (max-width: 600px) {
+  .form__file-list {
+    margin-right: 10px;
+  }
+}

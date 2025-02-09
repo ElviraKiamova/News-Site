@@ -1,5 +1,5 @@
 .form__input {
-  height: 82px;
+  height: 78px;
   border: none;
   border-radius: 15px;
   background-color: #E7E7E6;
@@ -24,6 +24,10 @@
 
 .form__input:invalid {
   border: 2px solid transparent;
+}
+
+.form__input:invalid:focus {
+  border: 2px solid red;
 }
 
 .form__input:invalid:focus-visible {

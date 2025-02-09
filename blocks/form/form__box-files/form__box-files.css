@@ -1,16 +1,23 @@
 .form__box-files {
   display: flex;
   justify-content: space-between;
+  width: fit-content;
+  padding:  0 10px;
   align-items: center;
-  width: 249px;
   border-radius: 5px;
   background-color: #FDC70D;
 }
 
+@media (max-width: 1000px) {
+  .form__box-files {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 @media (max-width: 400px) {
   .form__box-files {
-    width: 100%;
-    padding:  0 10px;
+    flex-direction: row;
     font-size: 14px;
     line-height: 16.84px;
     letter-spacing: 0px;

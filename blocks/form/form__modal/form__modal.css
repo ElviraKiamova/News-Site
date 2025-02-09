@@ -1,0 +1,14 @@
+.form__modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: none;
+  padding: 30px;
+  border-radius: 25px;
+  transform: translate(-50%, -50%);
+  background-color: #FFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  font-size: 40px;
+  line-height: 40px;
+}

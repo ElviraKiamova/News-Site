@@ -1,0 +1,9 @@
+.form__remove-files {
+  width: 20px;
+  height: 20px;
+  background-image: url('/images/added-files.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+}

@@ -65,9 +65,12 @@
           <input class="form__input" name="telephone" type="tel" placeholder="+7 (952)-664-77-23" required>
           <textarea class="form__input form__input-textarea" name="message" id="appeals-form" placeholder="Введите текст вашего обращения" required></textarea>
           <div class="form__box-files">
-            <div class="form__file-field">
-              <span class="form__added-files">namedoc.txt</span>
-            </div>
+            <ul class="form__file-list">
+              <!-- <li class="form__file-item">
+                <span class="form__added-files"></span>
+                <button class="form__remove-files"></button>
+              </li> -->
+            </ul>
             <label class="form__files-label">
               <input class="form__files" name="files" type="file" accept="image/*" multiple>
               <span class="form__attach-file">Прикрепить файлы</span>
@@ -82,13 +85,17 @@
             </span>
           </label>
           <button class="form__submit" type="submit">Отправить</button>
+          <div class="form__modal">
+            <p>Форма отправлена</p>
+            <button type="button" class="form__close-modal"></button>
+          </div>
         </form>
       </section>
     </main>
     <footer class="footer" id="footer">
       <ul class="footer__list width-block">
         <li class="footer__item">
-          <div class="logo logo_footer"></div>
+          <div class="footer__logo"></div>
           <div class="footer__box-site">
             <div class="footer__site">
               <h4 class="footer__title-site">Наименование сайта</h4>
