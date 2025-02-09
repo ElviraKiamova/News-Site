@@ -4,6 +4,46 @@ const burgerMenuElement = document.querySelector('.header__burger-menu');
 const dropDownElement = document.querySelector('.header__drop-down');
 const selectNewsElement = document.querySelector('.news-select');
 const newsListElements = document.querySelectorAll('[data-category]');
+const imageNewsElements = document.querySelectorAll('.news__card-img');
+
+
+const uploadImages = (image) => {
+    const srcImage = image.getAttribute('data-src');
+    if (srcImage) {
+    image.src = srcImage;
+    image.addEventListener('load', () => {
+      image.style.opacity = 1;
+    });
+    image.addEventListener('error', () => {
+      console.error(`Ошибка: ${srcImage}`);
+      image.alt = 'Изображение не доступно';
+    });
+    image.removeAttribute('data-src');
+    }
+  };
+
+const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.5,
+  };
+
+const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        uploadImages(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+
+document.addEventListener('DOMContentLoaded', () => {
+  imageNewsElements.forEach((image) => {
+    observer.observe(image);
+  });
+});
+
+
 
 
 const onOpenNewsList = () => {
@@ -29,6 +69,7 @@ document.addEventListener("click", function(event) {
     });
   }
 });
+
 
 
 const onOpenBurgerMenu = (event) => {
