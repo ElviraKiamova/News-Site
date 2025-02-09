@@ -1,0 +1,13 @@
+.header__drop-down {
+  position: absolute;
+  top: 30px;
+  left: -40px;
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  border-radius: 25px;
+  list-style-type: none;
+  background-color: #FFF;
+  cursor: pointer;
+}
