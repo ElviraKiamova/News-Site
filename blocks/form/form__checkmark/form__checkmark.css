@@ -15,7 +15,7 @@
 }
 
 .form__checkbox:checked + .form__checkmark {
-  background-image: url(/images/check-mark.svg);
+  background-image: url(../../../images/check-mark.svg);
   background-size: cover;
   border: 2px solid #FFC600;
 }
