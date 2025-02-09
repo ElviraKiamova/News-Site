@@ -1,6 +1,8 @@
 .form__attach-more {
   position: relative;
   margin: 0 20px 0 auto;
+  font-size: 20px;
+  line-height: 24.06px;
   letter-spacing: 0.6px;
 }
 
