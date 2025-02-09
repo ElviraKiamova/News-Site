@@ -1,6 +1,6 @@
 .form__attach-more {
   position: relative;
-  display: none;
+  margin: 0 20px 0 auto;
   letter-spacing: 0.6px;
 }
 
@@ -20,5 +20,8 @@
 @media (max-width: 400px) {
   .form__attach-more {
     display: block;
+    font-size: 14px;
+    line-height: 16.84px;
+    letter-spacing: 0px;
   }
 }

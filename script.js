@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const fileListElement = formElement.querySelector('.form__file-list');
     const modalElement = formElement.querySelector('.form__modal');
     const closeModalElement = formElement.querySelector('.form__close-modal');
+    const attachFileElement = formElement.querySelector('.form__attach-file');
 
     fileListElement.style.display = 'none';
 
@@ -23,6 +24,13 @@ document.addEventListener('DOMContentLoaded', () => {
       
       if (filesElement.length > 0) {
         fileListElement.style.display = 'block';
+
+        if (attachFileElement) {
+          attachFileElement.textContent = 'Прикрепить ещё';
+          attachFileElement.classList.remove('form__attach-file');
+          attachFileElement.classList.add('form__attach-more');
+        }
+
         filesElement.forEach(file => {
           const checkDuplicateFiles = [...fileListElement.children].some(item => item.textContent.includes(file.name));
           if (!checkDuplicateFiles) {
@@ -40,6 +48,9 @@ document.addEventListener('DOMContentLoaded', () => {
               itemElement.remove();
               if (fileListElement.children.length === 0) {
                 fileListElement.style.display = 'none';
+                attachFileElement.textContent = 'Прикрепить файлы';
+                attachFileElement.classList.remove('form__attach-more');
+                attachFileElement.classList.add('form__attach-file');
               }
             });
 
@@ -58,6 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
         fileListElement.innerHTML = '';
         fileListElement.style.display = 'none';
         modalElement.style.display = 'block';
+        attachFileElement.textContent = 'Прикрепить файлы';
+        attachFileElement.classList.remove('form__attach-more');
+        attachFileElement.classList.add('form__attach-file');
       }
     });
 
