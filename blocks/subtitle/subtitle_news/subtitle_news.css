@@ -12,7 +12,7 @@
   transform: translateY(-50%);
   width: 18px;
   height: 32px;
-  background-image: url('/images/sign.svg');
+  background-image: url('../../../images/sign.svg');
   background-repeat: no-repeat;
 }
 

@@ -4,7 +4,7 @@
   margin-right: 20px;
   margin-left: auto;
   border: none;
-  background-image: url(/images/search.svg);
+  background-image: url(../../../images/search.svg);
   background-color: transparent;
   cursor: pointer;
 }

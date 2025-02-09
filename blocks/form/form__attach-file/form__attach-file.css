@@ -10,7 +10,7 @@
   transform: translateY(-50%);
   width: 20px;
   height: 23px;
-  background-image: url('/images/clip.svg');
+  background-image: url('../../../images/clip.svgg');
   background-repeat: no-repeat;
   background-size: cover;
 }

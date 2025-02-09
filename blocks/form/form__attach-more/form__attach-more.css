@@ -12,7 +12,7 @@
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background-image: url('/images/attach-more.svg');
+  background-image: url('../../../images/attach-more.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
